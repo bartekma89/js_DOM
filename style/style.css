@@ -1,0 +1,43 @@
+#container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: rgba(44, 62, 80, 0.9);
+}
+
+.button {
+	margin: 20px;
+	height: 75px;
+	width: 200px;
+	border-radius: 5px;
+	border: none;
+	font-size: 35px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.button:active {
+	font-size: 2rem;
+}
+
+.hello {
+	background: rgba(46, 204, 113,1.0);
+}
+
+.push {
+	background: rgba(155, 89, 182,1.0);
+}
+
+.alert {
+	background: rgba(230, 126, 34,1.0);
+}
+
+.danger {
+	background: rgba(192, 57, 43,1.0);
+}
+
+.info {
+	background: rgba(52, 152, 219,1.0);
+}
